@@ -12,7 +12,7 @@ The book-id is in the url and the token is the request header called "Authorizat
 
 # Cornelsen (all PSPDF-Kit Apps)
 Again you need the book id (ISBN) and a token.
-Use Firefox Inspect to look at a POST request for a url like "https://pspdfkit.prod.cornelsen.de/i/d/[ISBN]/auth".
+Use Firefox Inspect to look at a POST request for a url like https://pspdfkit.prod.cornelsen.de/i/d/[ISBN]/auth.
 It shows the book-id / ISBN and the token is the request header called "Authorization".
 
 ![grafik](https://github.com/user-attachments/assets/b97888e7-f93a-4c4e-80cc-284fc134caac)
