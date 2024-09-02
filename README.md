@@ -1,6 +1,16 @@
 # Introduction
 This repository contains a number of scripts to download from major German schoolbook publishers
 
+# Requirements
+You need to export your cookies as a cookies.txt in the main folder.
+You need the following pip-libraries:
+* cookiestxt
+* pillow (only for cornelsen)
+* requests
+
+# Compatibility
+Currently only written for windows. Cornelsen script might need some changes for POSIX-type systems.
+
 # Westermann (e.g. BiBox)
 You need the book id and the authorization token.
 You can get both by using Firefox Inspect and watching the network and looking for the book manifest to be transferred.
