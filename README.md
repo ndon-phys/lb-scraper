@@ -3,10 +3,7 @@ This repository contains a number of scripts to download from major German schoo
 
 # Requirements
 You need to export your cookies as a cookies.txt in the main folder.
-You need the following pip-libraries:
-* cookiestxt
-* pillow (only for cornelsen)
-* requests
+See "requirements.txt" for python libraries.
 
 # Compatibility
 Currently only written for windows. Cornelsen script might need some changes for POSIX-type systems.
